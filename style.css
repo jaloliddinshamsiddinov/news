@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.uzb
+{
+    width: 100%;
+    height: 60vh;
+}
+.uzb img
+{
+    width: 100%;
+    height: 100%;
+}
+.viloyat ul
+{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.viloyat ul li
+{
+    margin-left: 38px;
+    list-style: none;
+}
+.viloyat
+{
+    background-image: linear-gradient( rgba(0, 204, 255, 0.479), rgba(211, 211, 211, 0.651));    padding: 5px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.viloyat ul li a
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+    list-style: georgian;
+}
+.birinchi img
+{
+    width: 400px;
+}
+.ikkinchi img
+{
+    width: 400px;
+}
+.andijon
+{
+    margin: 40px 0;
+}
+.andijon .andijon-rasmi
+{
+    width: 400px;
+    display: flex;
+}
+.birinchi
+{
+    position: relative;
+    margin-bottom: 50px;
+}
+#andijon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.birinchi-1
+{
+  position: absolute;
+  top: 0;
+  left: 405px;
+}
+.viloyatandijon:hover .andijon
+{
+display: block;
+}
+.ikkinchi
+{
+    position: relative;
+    width: 940px;
+    margin-bottom: 50px;
+}
+.ikkinchi-2
+{
+    position: absolute;
+    top: 0;
+    right: -405px;
+}
